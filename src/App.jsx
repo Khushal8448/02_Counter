@@ -1,3 +1,5 @@
+// BASIC COUNTER APP
+
 import { useState } from "react";
 
 import "./App.css";
