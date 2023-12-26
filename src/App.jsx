@@ -9,9 +9,13 @@ function App() {
 
   function increase() {
     setcount((c) => (count < 20 ? c + 1 : c));
+    setcount((c) => (count < 20 ? c + 1 : c));
+    setcount((c) => (count < 20 ? c + 1 : c));
+    setcount((c) => (count < 20 ? c + 1 : c));
   }
 
   function decrease() {
+    setcount((c) => (count > 0 ? c - 1 : c));
     setcount((c) => (count > 0 ? c - 1 : c));
   }
 
