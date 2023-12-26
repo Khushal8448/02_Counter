@@ -8,7 +8,7 @@ function App() {
   const [count, setcount] = useState(0);
 
   function increase() {
-    setcount((c) => c + 1);
+    setcount((c) => (count < 20 ? c + 1 : c));
   }
 
   function decrease() {
